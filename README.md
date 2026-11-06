@@ -1,7 +1,7 @@
 ﻿# Terraform Lab
 
 My hands-on labs from KodeKloud's **Terraform for the Absolute Beginner with Hands-on Labs** (Coursera Labs).
-Each folder is one lab, with a `README.md` (goal, what the config does, commands, takeaways) and the `.tf` files.
+Each folder is one lab with its `.tf` files.
 
 All labs use providers that run locally (`local`, `random`, `tls`, `time`), so no cloud account is needed.
 The lab VMs wrote files under `/root/...`; here every lab writes into an `out/` folder inside the lab directory (git-ignored), so it runs on Windows, macOS and Linux.
